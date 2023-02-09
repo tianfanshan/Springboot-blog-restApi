@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+jwt:
+  secret: 2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b
+  expireTime: 604800000   # 7 days
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
